@@ -1,0 +1,763 @@
+/*Estilos de la barra de navegación*/
+
+.navbar h2,
+h3,
+button {
+    overflow: hidden;
+    float: left;
+}
+
+.navbar h2 {
+    padding-left: 10%;
+    padding-right: 15%;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1d3fc9;
+}
+
+.navbar h3 {
+    padding-left: 4%;
+    padding-top: 0.5%;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    size: 50px;
+    color: gray;
+}
+
+.navbar a {
+    padding: 15px 32px;
+    margin-left: 5%;
+    margin-top: 0.5%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #1d3fc9;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+/*Estilos de la seccion Fight Virus*/
+
+.seccion2 {
+    position: relative;
+}
+
+.textimg {
+    display: flex;
+    display: inline-flex;
+}
+
+.izquierda {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.izquierdatitulo {
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    line-height: 5px;
+    color: #0b0d83;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.izquierdaparrafo {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+    color: rgba(113, 129, 201, 0.692);
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.derechaicontext,
+.logotext,
+.datosvacuna {
+    display: flex;
+    display: inline-flex;
+}
+
+.derechaicontext img {
+    padding-top: 7px;
+    padding-right: 7px;
+}
+
+.derechaicontext p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #2e3cbd;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.derechaicontext2 {
+    display: flex;
+}
+
+.derechaicontext2 img {
+    padding-top: 30px;
+    padding-right: 7px;
+}
+
+.derechaicontext2 p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #264fbe;
+    padding-left: 5px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.izquierda {
+    padding-left: 140px;
+}
+
+.flotante {
+    background-color: #ffffffb7;
+    margin-left: 200px;
+    width: 800px;
+    height: 150px;
+    position: absolute;
+    top: 450px;
+}
+
+.logotext img {
+    padding-top: 25px;
+    padding-right: 5px;
+    padding-left: 25px;
+}
+
+.logotext p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.logotext a {
+    padding: 12px 20px;
+    margin-left: 1%;
+    margin-top: 5%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #1d3fc9;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.datosvacuna p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #2949a1;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 60px;
+    line-height: 5px;
+}
+
+
+/*Estilos marcas de vacunas*/
+
+.marcas {
+    display: flex;
+    display: inline-flex;
+    padding-left: 150px;
+}
+
+.marcas img {
+    padding-top: 20px;
+    padding-right: 170px;
+}
+
+.shouldvaccine {
+    padding-left: 140px;
+}
+
+.shouldvaccinetitulo {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    line-height: 1px;
+    color: #0b0d83;
+    font-weight: bolder;
+    padding-top: 65px;
+    padding-bottom: 5px;
+}
+
+.shouldvaccineparrafo {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 10px;
+    color: gray;
+    padding-bottom: 60px;
+}
+
+.cuadros {
+    display: flex;
+    display: inline-flex;
+    padding-left: 140px;
+    padding-right: 100px;
+}
+
+.cuadrouno,
+.cuadrodos,
+.cuadrotres,
+.cuadrocuatro {
+    width: 230px;
+    height: 250px;
+    border-radius: 10%;
+    margin-right: 30px;
+    box-shadow: 1px 1px 1px 1px rgb(223, 223, 223);
+}
+
+.cuadrouno img,
+.cuadrodos img,
+.cuadrotres img,
+.cuadrocuatro img {
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.cuadrouno h2,
+.cuadrodos h2,
+.cuadrotres h2,
+.cuadrocuatro h2 {
+    font-family: Arial, sans-serif;
+    line-height: 2px;
+    color: #0b0d83;
+    font-size: medium;
+    padding-left: 30px;
+}
+
+.cuadrouno p,
+.cuadrodos p,
+.cuadrotres p,
+.cuadrocuatro p {
+    font-family: Arial, sans-serif;
+    line-height: 1px;
+    color: gray;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+
+/*Seccion preparations Before Vaccine*/
+
+.preparations {
+    display: flex;
+    display: inline-flex;
+}
+
+.preparationsizquierda {
+    padding-top: 120px;
+    padding-left: 200px;
+}
+
+.preparationsderecha {
+    padding-top: 70px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.preparationinfo {
+    padding-bottom: 5px;
+}
+
+.preparationinfo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #0b0d83;
+    font-weight: bold;
+}
+
+.preparationinfo p {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 5px;
+    color: gray;
+    padding-bottom: 3px;
+}
+
+.preparationbebida {
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 20px;
+    width: 370px;
+}
+
+.preparationbebida img,
+.preparationbebida p {
+    float: left;
+}
+
+.preparationbebida img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.preparationbebida p {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #0b0d83;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.preparationestres {
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 20px;
+    width: 370px;
+}
+
+.preparationestres img,
+.preparationdos p {
+    float: left;
+}
+
+.preparationestres img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.preparationestres p {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    color: #0b0d83;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-right: 180px;
+}
+
+.preparationestres2 p {
+    padding-top: 2px;
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    color: gray;
+}
+
+.preparationcomida {
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 20px;
+    width: 370px;
+}
+
+.preparationcomida img,
+.preparationcomida p {
+    float: left;
+}
+
+.preparationcomida img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.preparationcomida p {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    color: #0b0d83;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-right: 150px;
+}
+
+.preparationdormir {
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 20px;
+    width: 370px;
+}
+
+.preparationdormir img,
+.preparationdormir p {
+    float: left;
+}
+
+.preparationdormir img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.preparationdormir p {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    color: #0b0d83;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-right: 140px;
+}
+
+.preparationejercicio {
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 20px;
+    width: 370px;
+}
+
+.preparationejercicio img,
+.preparationejercicio p {
+    float: left;
+}
+
+.preparationejercicio img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.preparationejercicio p {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+    color: #0b0d83;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-right: 63px;
+}
+
+
+/*Emergency Contact*/
+
+.doctor {
+    display: flex;
+    display: inline-flex;
+    padding-left: 200px;
+}
+
+.contactoinfo h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #0b0d83;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.contactoinfo p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0px;
+    color: gray;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+
+.callchat {
+    display: flex;
+    display: inline-flex;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.call {
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.call0 {
+    display: flex;
+    display: inline-flex;
+}
+
+.call1 img {
+    padding-top: 20px;
+}
+
+.call2 p {
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #0b0d83;
+    line-height: 3px;
+    font-weight: 600;
+}
+
+.call3 a {
+    padding: 6px 30px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0b0d83;
+    background-color: #dce5f9;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.chat {
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.chat0 {
+    display: flex;
+    display: inline-flex;
+}
+
+.chat1 img {
+    padding-top: 20px;
+}
+
+.chat2 p {
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #0b0d83;
+    line-height: 3px;
+    font-weight: 600;
+}
+
+.chat3 a {
+    padding: 6px 30px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #dce5f9;
+    background-color: #0b0d83;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.videomessage {
+    display: flex;
+    display: inline-flex;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.video {
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.video0 {
+    display: flex;
+    display: inline-flex;
+}
+
+.video1 img {
+    padding-top: 20px;
+}
+
+.video2 p {
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #0b0d83;
+    line-height: 3px;
+    font-weight: 600;
+}
+
+.video3 a {
+    padding: 6px 30px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #0b0d83;
+    background-color: #dce5f9;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.msg {
+    box-shadow: 1px 1px 1px 1px gray;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.msg0 {
+    display: flex;
+    display: inline-flex;
+}
+
+.msg1 img {
+    padding-top: 20px;
+}
+
+.msg2 p {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #0b0d83;
+    line-height: 3px;
+    font-weight: 600;
+}
+
+.msg3 a {
+    padding: 6px 30px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #0b0d83;
+    background-color: #dce5f9;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.imagenderecha {
+    margin-left: 80px;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: #dce9f5;
+    margin-top: 150px;
+}
+
+.infofooterA {
+    display: flex;
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+.footvaccination {
+    padding-right: 400px;
+}
+
+.footvaccination h4 {
+    color: #0b0d83;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+.footvaccination p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 5px;
+    color: gray;
+    padding-left: 100px;
+}
+
+.about {
+    padding-right: 150px;
+}
+
+.about h4 {
+    color: #0b0d83;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.about p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    color: gray;
+}
+
+.company {
+    padding-right: 130px;
+}
+
+.company h4 {
+    color: #0b0d83;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.company p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    color: gray;
+}
+
+.support h4 {
+    color: #0b0d83;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.support p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    color: gray;
+}
+
+.infofooterB {
+    display: flex;
+    display: inline-flex;
+    padding-top: 50px;
+}
+
+.derechos p {
+    font-family: Arial, sans-serif;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-right: 470px;
+}
+
+.terminos p,
+.politica p {
+    font-family: Arial, sans-serif;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 100px;
+}
